@@ -13,3 +13,5 @@ RUN pip install cython
 RUN pip install dubins
 RUN apt-get install -y python-skimage
 RUN apt-get install -y python-opencv
+
+RUN apt-get install -y cmake
